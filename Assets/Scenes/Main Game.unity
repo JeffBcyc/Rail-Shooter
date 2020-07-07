@@ -385,6 +385,26 @@ Transform:
   m_Father: {fileID: 544006798}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &315068346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
+    type: 3}
+  m_PrefabInstance: {fileID: 81713029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &315068349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315068346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300020, guid: eb1625d1c61c79e4da85a39a1f877bc6, type: 3}
 --- !u!1 &401668996
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StarSparrow-JC Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586157979527775523, guid: 0105f0de750a2254ea52a3992ea92fbf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5589169005993300277, guid: 0105f0de750a2254ea52a3992ea92fbf,
         type: 3}
@@ -1587,6 +1612,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+--- !u!1 &1906422678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 262341669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1906422679
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906422678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
 --- !u!1001 &2088398626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1792,6 +1837,20 @@ MonoBehaviour:
   controlPitchFactor: -5
   positionYawFactor: 0.5
   rowControlFactor: -20
+--- !u!64 &2126037419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126037416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &127710730710637582
 PrefabInstance:
   m_ObjectHideFlags: 0

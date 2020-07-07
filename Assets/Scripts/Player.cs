@@ -65,5 +65,14 @@ public class Player : MonoBehaviour
         transform.localPosition = new Vector3(transform.localPosition.x, clampedYPos, transform.localPosition.z);
     }
 
+    private void OnTriggerEnter(Collider collider)
+    {
+        Debug.Log("Triggered by " + collider.gameObject.name);
+
+        ParticleSystem explosion = transform.Find("Explosion").GetComponent<ParticleSystem>();
+        explosion.Play();
+        Debug.Log(explosion.name);
+    }
+
 
 }
