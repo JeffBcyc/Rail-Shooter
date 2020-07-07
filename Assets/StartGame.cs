@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MusicPlayer : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
 
-    private void Awake() {
-        DontDestroyOnLoad(this);
+    public void loadMainGame()
+    {
+        SceneManager.LoadScene(1);
     }
+
 
 }
