@@ -319,7 +319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a7b2f188c7d053408160b42b0e36b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eachEnemyPoints: 200
 --- !u!1 &213727385
 GameObject:
   m_ObjectHideFlags: 0
@@ -4259,16 +4258,6 @@ PrefabInstance:
       propertyPath: parent
       value: 
       objectReference: {fileID: 2046415009}
-    - target: {fileID: 6799306723207543759, guid: 6e67c8f7c77d2af4c8fcd28dc61a37ae,
-        type: 3}
-      propertyPath: scoreBoard
-      value: 
-      objectReference: {fileID: 150068908}
-    - target: {fileID: 6799306723207543759, guid: 6e67c8f7c77d2af4c8fcd28dc61a37ae,
-        type: 3}
-      propertyPath: enemyShipHP
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 8757214247707455281, guid: 6e67c8f7c77d2af4c8fcd28dc61a37ae,
         type: 3}
       propertyPath: m_LocalPosition.x

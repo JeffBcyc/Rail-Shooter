@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float positionYawFactor = 1.5f;
     [SerializeField] float rowControlFactor = -20f;
 
-    [SerializeField] GameObject[] guns;
+    [SerializeField] GameObject[] guns = null;
 
     float xThrow, yThrow;
     bool isControllerEnabled = true;

@@ -7,24 +7,25 @@ using UnityEngine.UI;
 public class ScoreBoard : MonoBehaviour
 {
 
-    [SerializeField] int eachEnemyPoints = 100;
     Text currentScore;
     int score;
 
     private void Awake()
     {
         currentScore = FindObjectOfType<Text>();
-        currentScore.text = currentScore.ToString();
+        //currentScore.text = currentScore.ToString();
+        currentScore.text = "0";
 
         // make it a singleton so that player can have 3 lives to add points together
         int numOfScoreBoard = FindObjectsOfType<ScoreBoard>().Length;
+
+
         if (numOfScoreBoard > 1)
         {
-            Destroy(this);
+            Destroy(this.transform.root.gameObject);
         } else
         {
-            currentScore.text = "0";
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this.transform.root.gameObject);
         }
 
     }

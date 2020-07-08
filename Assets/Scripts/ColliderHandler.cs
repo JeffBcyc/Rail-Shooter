@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ColliderHandler : MonoBehaviour
 {
 
-    [SerializeField] GameObject deathFX;
+    [SerializeField] GameObject deathFX = null;
 
     private void Start()
     {
@@ -23,7 +23,6 @@ public class ColliderHandler : MonoBehaviour
     {
         Debug.Log("Hit something, triggered death sequence");
         deathFX.SetActive(true);
-
         //SendMessage("DisableController");
         //Invoke("ResetGame", 2f);
     }

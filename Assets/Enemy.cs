@@ -7,13 +7,13 @@ public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    [SerializeField] GameObject enemyDeathFX;
-    [SerializeField] Transform parent;
+    [SerializeField] GameObject enemyDeathFX = null;
+    [SerializeField] Transform parent = null;
     [SerializeField] int scorePerHit = 100;
     [SerializeField] int enemyShipHP = 13;
 
 
-    ScoreBoard scoreBoard;
+    ScoreBoard scoreBoard = null;
 
     void Start()
     {

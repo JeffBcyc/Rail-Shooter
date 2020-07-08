@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8011120494536177915}
   - component: {fileID: 7556920919719813589}
   - component: {fileID: 6799306723207543759}
+  - component: {fileID: 2696315222258469996}
+  - component: {fileID: 8898559998991462666}
   m_Layer: 0
   m_Name: BigShip
   m_TagString: Untagged
@@ -95,4 +97,43 @@ MonoBehaviour:
   enemyDeathFX: {fileID: 1803334463567207782, guid: d0213c453ce8586489d7cd7663a9ef6e,
     type: 3}
   parent: {fileID: 0}
-  scoreBoard: {fileID: 0}
+  scorePerHit: 100
+  enemyShipHP: 15
+--- !u!320 &2696315222258469996
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4753831548153967043}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 79723db83656ffd48b834884c482f9f4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1875707976245939170, guid: 79723db83656ffd48b834884c482f9f4, type: 2}
+    value: {fileID: 8898559998991462666}
+  m_ExposedReferences:
+    m_References: []
+--- !u!95 &8898559998991462666
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4753831548153967043}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
