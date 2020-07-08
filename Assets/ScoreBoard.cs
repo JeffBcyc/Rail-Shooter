@@ -24,7 +24,6 @@ public class ScoreBoard : MonoBehaviour
         } else
         {
             currentScore.text = "0";
-            print(Convert.ToInt32("0"));
             DontDestroyOnLoad(this);
         }
 

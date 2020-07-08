@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject enemyDeathFX;
     [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 100;
+    [SerializeField] int enemyShipHP = 13;
+
 
     ScoreBoard scoreBoard;
 
@@ -27,14 +29,16 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-
-        // Change B
-        // Change C
         print("Enemy Ship hit");
-        GameObject fx = Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
-        fx.transform.parent = parent;
-        scoreBoard.ScoreHit(scorePerHit);
-        Destroy(gameObject);
+        enemyShipHP--;
+
+        if (enemyShipHP <= 0)
+        {
+            GameObject fx = Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
+            fx.transform.parent = parent;
+            scoreBoard.ScoreHit(scorePerHit);
+            Destroy(gameObject);
+        } 
         
     }
 

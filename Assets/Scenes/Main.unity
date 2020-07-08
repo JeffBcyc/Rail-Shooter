@@ -142,6 +142,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -209,6 +213,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1465330931472495600, guid: f314f21db5e52804dbb9f4b7c73bf483,
     type: 3}
   m_PrefabInstance: {fileID: 2140952650}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &111803898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4103137587718481539, guid: 54ce75c233a2bfa4283417ee6701146a,
+    type: 3}
+  m_PrefabInstance: {fileID: 962168960}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &138709657 stripped
 Transform:
@@ -334,7 +344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213727385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -159, y: -113.1, z: -429}
+  m_LocalPosition: {x: -159, y: -120, z: -429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -364,7 +374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236599209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: -55.68, z: -409}
+  m_LocalPosition: {x: 136.9, y: -87.9, z: -338.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -394,7 +404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251150652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 182.5, y: -105.5, z: 218.1}
+  m_LocalPosition: {x: 182.5, y: -120, z: 218.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -415,6 +425,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -501,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266244951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -258, y: -89.4, z: 31}
+  m_LocalPosition: {x: -280.1, y: -99.7, z: -17.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -522,6 +536,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -599,6 +617,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -676,6 +698,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -753,6 +779,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -839,7 +869,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401668996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 265, y: -92.8, z: -9.5}
+  m_LocalPosition: {x: 265, y: -120, z: -9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -872,6 +902,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -949,6 +983,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -1096,6 +1134,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -1179,6 +1221,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -1364,7 +1410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661100458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -106.5, y: -103.9, z: 206.4}
+  m_LocalPosition: {x: -106.5, y: -120, z: 206.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -1391,6 +1437,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -1474,6 +1524,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -1572,7 +1626,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873701487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18, y: -113.1, z: -481}
+  m_LocalPosition: {x: -18, y: -120, z: -481}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -1602,7 +1656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878663797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.7, y: -114.6, z: 239.6}
+  m_LocalPosition: {x: 50.7, y: -120, z: 239.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -1675,6 +1729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: TrailModule.widthOverTrail.scalar
       value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999037691297976819, guid: 54ce75c233a2bfa4283417ee6701146a,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 1999037691297976820, guid: 54ce75c233a2bfa4283417ee6701146a,
         type: 3}
@@ -1851,6 +1910,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: JC Ship
       objectReference: {fileID: 0}
+    - target: {fileID: 7833914283796113368, guid: 54ce75c233a2bfa4283417ee6701146a,
+        type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833914283796113368, guid: 54ce75c233a2bfa4283417ee6701146a,
+        type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 970914158}
+    - target: {fileID: 7833914283796113368, guid: 54ce75c233a2bfa4283417ee6701146a,
+        type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 111803898}
     m_RemovedComponents:
     - {fileID: 7833914284403363244, guid: 54ce75c233a2bfa4283417ee6701146a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 54ce75c233a2bfa4283417ee6701146a, type: 3}
@@ -1983,7 +2057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 544006799}
-  lookAheadForTargetOffset: 1
+  lookAheadForTargetOffset: 0.5
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
@@ -2005,6 +2079,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -2067,6 +2145,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+--- !u!1 &970914158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1999037691297976822, guid: 54ce75c233a2bfa4283417ee6701146a,
+    type: 3}
+  m_PrefabInstance: {fileID: 962168960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &979617294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2082,6 +2166,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2165,6 +2253,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2254,6 +2346,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2340,7 +2436,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057705145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -296, y: -63.98, z: -194}
+  m_LocalPosition: {x: -296, y: -81.6, z: -194}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -2361,6 +2457,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2516,6 +2616,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2617,6 +2721,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2733,6 +2841,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2893,6 +3005,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -2982,6 +3098,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -3119,6 +3239,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -3202,6 +3326,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -3294,7 +3422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890781252}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 210, y: -52.6, z: -217}
+  m_LocalPosition: {x: 210, y: -120, z: -217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -3315,6 +3443,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -3398,6 +3530,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -3529,6 +3665,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -3612,6 +3752,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 1953326516, guid: 04087bfbc6dee2741822f759db7ab0e1, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2279663551396690767, guid: 04087bfbc6dee2741822f759db7ab0e1,
         type: 3}
       propertyPath: m_Name
@@ -3698,7 +3842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121472720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -226, y: -101.2, z: -346}
+  m_LocalPosition: {x: -226, y: -115.7, z: -346}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 544006798}
@@ -3725,6 +3869,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 589647186, guid: f314f21db5e52804dbb9f4b7c73bf483, type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 808703866640460411, guid: f314f21db5e52804dbb9f4b7c73bf483,
         type: 3}
       propertyPath: m_Name
@@ -4116,6 +4264,11 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 150068908}
+    - target: {fileID: 6799306723207543759, guid: 6e67c8f7c77d2af4c8fcd28dc61a37ae,
+        type: 3}
+      propertyPath: enemyShipHP
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8757214247707455281, guid: 6e67c8f7c77d2af4c8fcd28dc61a37ae,
         type: 3}
       propertyPath: m_LocalPosition.x
