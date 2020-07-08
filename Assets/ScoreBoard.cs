@@ -29,10 +29,10 @@ public class ScoreBoard : MonoBehaviour
         }
 
     }
-    
-    public void ScoreHit()
+
+    public void ScoreHit(int scorePerHit)
     {
-        score += eachEnemyPoints;
+        score += scorePerHit;
         currentScore.text = score.ToString();
     }
 

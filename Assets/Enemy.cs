@@ -9,14 +9,14 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] GameObject enemyDeathFX;
     [SerializeField] Transform parent;
-    [SerializeField] ScoreBoard scoreBoard;
+    [SerializeField] int scorePerHit = 100;
+
+    ScoreBoard scoreBoard;
 
     void Start()
     {
-
         addNonTriggerBoxCollider();
-        
-
+        scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
     private void addNonTriggerBoxCollider()
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         print("Enemy Ship hit");
         GameObject fx = Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
-        scoreBoard.ScoreHit();
+        scoreBoard.ScoreHit(scorePerHit);
         Destroy(gameObject);
         
     }
