@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 
     [Tooltip("at what speed the ship is moving on the x axis: unit in ms^-1")] [SerializeField] float speed = 30f;
@@ -19,18 +19,22 @@ public class Player : MonoBehaviour
     [SerializeField] float rowControlFactor = -20f;
 
     float xThrow, yThrow;
+    bool isControllerEnabled = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
+        if (isControllerEnabled)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+        }
     }
 
     private void ProcessRotation()
@@ -65,14 +69,9 @@ public class Player : MonoBehaviour
         transform.localPosition = new Vector3(transform.localPosition.x, clampedYPos, transform.localPosition.z);
     }
 
-    private void OnTriggerEnter(Collider collider)
+    private void DisableController()
     {
-        Debug.Log("Triggered by " + collider.gameObject.name);
-
-        ParticleSystem explosion = transform.Find("Explosion").GetComponent<ParticleSystem>();
-        explosion.Play();
-        Debug.Log(explosion.name);
+        isControllerEnabled = false;
     }
-
 
 }
