@@ -27,6 +27,9 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
+
+        // Change B
+        // Change C
         print("Enemy Ship hit");
         GameObject fx = Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
