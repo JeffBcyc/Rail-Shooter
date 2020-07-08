@@ -8,9 +8,12 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] GameObject enemyDeathFX;
+    [SerializeField] Transform parent;
+    [SerializeField] ScoreBoard scoreBoard;
 
     void Start()
     {
+
         addNonTriggerBoxCollider();
         
 
@@ -25,8 +28,11 @@ public class Enemy : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         print("Enemy Ship hit");
-        Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
+        GameObject fx = Instantiate(enemyDeathFX, transform.position, Quaternion.identity);
+        fx.transform.parent = parent;
+        scoreBoard.ScoreHit();
         Destroy(gameObject);
+        
     }
 
 }

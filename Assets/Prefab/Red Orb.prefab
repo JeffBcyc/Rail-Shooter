@@ -106,4 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f0664f00bf30e46b6cd5d84678abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyDeathFX: {fileID: 0}
+  enemyDeathFX: {fileID: 1803334463567207782, guid: 8e516aaba561cc2459750e3045a04bf4,
+    type: 3}
+  parent: {fileID: 0}
+  scoreBoard: {fileID: 0}

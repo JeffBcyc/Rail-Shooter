@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8757214247707455281}
   - component: {fileID: 8011120494536177915}
   - component: {fileID: 7556920919719813589}
-  - component: {fileID: 6799306723345959450}
   - component: {fileID: 6799306723207543759}
   m_Layer: 0
   m_Name: BigShip
@@ -27,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4753831548153967043}
-  m_LocalRotation: {x: -0.033013873, y: -0.7063357, z: -0.7063356, w: 0.033013873}
+  m_LocalRotation: {x: -0.03301345, y: -0.7063357, z: -0.7063357, w: 0.03301345}
   m_LocalPosition: {x: -574.53516, y: -109.3721, z: -297.53513}
   m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children: []
@@ -81,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6799306723345959450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4753831548153967043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f0664f00bf30e46b6cd5d84678abe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyDeathFX: {fileID: 0}
 --- !u!114 &6799306723207543759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,4 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f0664f00bf30e46b6cd5d84678abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyDeathFX: {fileID: 0}
+  enemyDeathFX: {fileID: 1803334463567207782, guid: d0213c453ce8586489d7cd7663a9ef6e,
+    type: 3}
+  parent: {fileID: 0}
+  scoreBoard: {fileID: 0}

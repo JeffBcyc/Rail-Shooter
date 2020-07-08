@@ -4765,8 +4765,9 @@ GameObject:
   - component: {fileID: 1803334463567207705}
   - component: {fileID: 1803334463567207707}
   - component: {fileID: 1803334463567207704}
+  - component: {fileID: -6048905185931663640}
   m_Layer: 0
-  m_Name: Explosion
+  m_Name: Star Death FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9509,3 +9510,15 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &-6048905185931663640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803334463567207782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a0f5642f618f54eb14043cd170b4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
